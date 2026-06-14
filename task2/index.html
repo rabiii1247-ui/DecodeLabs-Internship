@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+      <button class="close-btn" onclick="toggleSidebar()">✖</button>
+    <h3>Menu</h3>
+    <button class="close-btn" onclick="toggleSidebar()">✖</button>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+
+        <!-- Left side: logo + hamburger -->
+        <div class="left-nav">
+            <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+            <h2 class="logo">DecodeLabs</h2>
+        </div>
+
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Responsive Web Layout</h1>
+    <p>Build once, work on every device.</p>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <h3>HTML</h3>
+        <p>Structure of webpage.</p>
+    </div>
+
+    <div class="card">
+        <h3>CSS</h3>
+        <p>Styling and layout.</p>
+    </div>
+
+    <div class="card">
+        <h3>Responsive Design</h3>
+        <p>Works on mobile, tablet and desktop.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 DecodeLabs Project 2</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
